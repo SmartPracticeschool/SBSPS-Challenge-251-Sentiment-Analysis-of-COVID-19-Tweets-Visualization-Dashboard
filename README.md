@@ -8,4 +8,4 @@ We have used Node-RED application from IBM Cloud Services to create our app. We 
 
 
 App URL
-https://twitter-sentiment-analysis-of-covid19-hashtags.eu-gb.mybluemix.net 
+https://twitter-sentiment-analysis-of-covid19-hashtags.eu-gb.mybluemix.net/ui 
