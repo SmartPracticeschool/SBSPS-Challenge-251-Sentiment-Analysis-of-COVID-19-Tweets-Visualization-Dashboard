@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: twittersentimentanalysisofcovid19hashtags
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 256MB
+  domain: eu-gb.mybluemix.net
+  host: twitter-sentiment-analysis-of-covid19-hashtags
+  services:
+    - twitter-sentiment-an-cloudant-1593062553612-56795
+  env:
+    OPTIMIZE_MEMORY: true
